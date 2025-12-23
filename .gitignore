@@ -1,0 +1,51 @@
+# ===============================
+# Dependencies (Bun / Node)
+# ===============================
+node_modules
+.bun
+
+# ===============================
+# Build outputs
+# ===============================
+out
+dist
+*.tgz
+
+# ===============================
+# Coverage & reports
+# ===============================
+coverage
+*.lcov
+logs
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ===============================
+# Environment variables (LOCKED)
+# ===============================
+.env
+.env.*
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+env/*.env
+
+# Allow committed examples ONLY
+!env/*.example.env
+
+# ===============================
+# Caches
+# ===============================
+.cache
+.eslintcache
+*.tsbuildinfo
+
+# ===============================
+# IDE / OS
+# ===============================
+.idea
+.DS_Store

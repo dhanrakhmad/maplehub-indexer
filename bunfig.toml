@@ -1,0 +1,7 @@
+# bunfig.toml
+logLevel = "warn"
+telemetry = false
+smol = false
+
+[console]
+depth = 3
